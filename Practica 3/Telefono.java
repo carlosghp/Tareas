@@ -11,7 +11,6 @@ class Telefono {
         this.numero = numero;
     }
 
-    
     public String toString() {
         return "Teléfono: " + pais + " " + lada + " " + numero;
     }
