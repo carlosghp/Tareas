@@ -7,7 +7,6 @@ class Alumno {
     private String grado;
     private String grupo;
     private Tutor tutor;
-
     public Alumno() {
     }
 
@@ -24,13 +23,12 @@ class Alumno {
         return tutor;
     }
 
-    @Override
     public String toString() {
         return "Nombre: " + nombre + ", Carrera: " + carrera + ", Matrícula: " + matricula + ", Grado: " + grado + ", Grupo: " + grupo + "\n" + tutor.toString();
     }
 public static void main(String[] args) {
         Telefono telefonoTutor = new Telefono("+52", "981", "1511871");
-        Tutor tutor = new Tutor("Juan", 55, telefonoTutor);
+        Tutor tutor = new Tutor("Juan", 65, 9811511871);
         Alumno moana = new Alumno("Carlos", "ISC", "64415", "3ro", "B", tutor);
 
         System.out.println(moana.toString());
