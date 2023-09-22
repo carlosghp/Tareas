@@ -1,20 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica3;
 
-/**
-* Automovil.java
-*
-* @author Héctor Quej Cosgaya
-* @author José Aguilar Canepa
-*
-* @created 05/11/12 10:50 PM
-*
-* Esta clase modela el motor de un automovil.
-*/
 import java.util.Random;
 
 public class Motor {
@@ -43,7 +28,7 @@ public class Motor {
         prepararMezcla();
         comprimirMezcla();
         encenderMezcla();
-}
+	}
 }
         
 	
