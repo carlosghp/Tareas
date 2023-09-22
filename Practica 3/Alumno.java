@@ -9,7 +9,6 @@ class Alumno {
     private Tutor tutor;
 
     public Alumno() {
-        // Constructor vacío
     }
 
     public Alumno(String nombre, String carrera, String matricula, String grado, String grupo, Tutor tutor) {
